@@ -105,11 +105,19 @@ libraries with novel use of new C++ features.
 
 ## Tools
 
+### Build systems
 * [CMake](https://cmake.org/) - Cross-platform family of tools designed to build, test and package software.
 * [Hunter](https://github.com/ruslo/hunter) - Cross-platform package manager for C++.
 * [cget](https://github.com/pfultz2/cget) - CMake package retrieval.
+* [conan](https://www.conan.io/) - C/C++ package manager.
+
+### Static analysis
+* [cppcheck](http://cppcheck.sourceforge.net/) - Static analysis of C/C++ code.
+* [clazy](https://github.com/KDE/clazy) - A Clang-based code checker specialized for common quirks in Qt code.
 * [clang-format](http://clang.llvm.org/docs/ClangFormat.html) - A tool to format C++ code.
 * [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) - A clang-based C++ "linter" and static analysis tool.
-* [conan](https://www.conan.io/) - C/C++ package manager.
-* [cppcheck](http://cppcheck.sourceforge.net/) - Static analysis of C/C++ code.
+* [massif-visualizer](https://github.com/KDE/massif-visualizer) - A GUI for Valgrind's massif mode, able to display memory usage of different parts of a program
+* [kcachegrind](http://kcachegrind.sourceforge.net/html/Home.html) - A call graph viewer and profiler GUI for Valgrind
+
+### Other
 * [irony-mode](https://github.com/Sarcasm/irony-mode) -  A C/C++ minor mode for Emacs powered by libclang.
